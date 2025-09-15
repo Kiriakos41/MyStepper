@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MyMilestoneTracker.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:MyMilestoneTracker.Views"
+    Shell.NavBarIsVisible="False">
+    <VerticalStackLayout Padding="20" Spacing="20">
+
+        <controls:StepperControl x:Name="Wizard">
+            <controls:StepperControl.Steps>
+                <!--  Step 1  -->
+                <VerticalStackLayout Spacing="10">
+                    <Label FontSize="20" Text="Step 1: Introduction" />
+                </VerticalStackLayout>
+
+                <!--  Step 2  -->
+                <VerticalStackLayout Spacing="10">
+                    <Label FontSize="20" Text="Step 2: Details" />
+                    <Entry Placeholder="Name" />
+                    <Entry Placeholder="Email" />
+                </VerticalStackLayout>
+
+                <!--  Step 3  -->
+                <VerticalStackLayout Spacing="10">
+                    <Label FontSize="20" Text="Step 3: Completion 🎉" />
+                    <Entry Placeholder="Comments" />
+                </VerticalStackLayout>
+            </controls:StepperControl.Steps>
+        </controls:StepperControl>
+
+        <!--  Navigation Buttons  -->
+        <HorizontalStackLayout HorizontalOptions="Center" Spacing="20">
+            <Button Clicked="OnBackClicked" Text="⬅️ Back" />
+            <Button Clicked="OnNextClicked" Text="➡️ Next" />
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+
+</ContentPage>
