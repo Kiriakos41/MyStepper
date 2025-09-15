@@ -15,9 +15,9 @@ A simple **cross-platform .NET MAUI application** that allows users to go throug
 
 ---
 
-## 🖼 Screenshots
+## 📺 Video
 
-*(Add screenshots of your app here, e.g., Step 1, Step 2, Step 3)*
+https://github.com/user-attachments/assets/964ba4b2-044e-438d-9dfd-6f6eb27b011f
 
 ---
 
