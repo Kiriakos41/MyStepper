@@ -31,4 +31,4 @@ A simple **cross-platform .NET MAUI application** that allows users to go throug
 ### Running the App
 1. Clone the repository:  
 ```bash
-git clone https://github.com/yourusername/MyMilestoneTracker.git
+git clone https://github.com/Kiriakos41/MyMilestoneTracker.git
