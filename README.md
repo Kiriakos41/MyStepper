@@ -32,3 +32,31 @@ A simple **cross-platform .NET MAUI application** that allows users to go throug
 1. Clone the repository:  
 ```bash
 git clone https://github.com/Kiriakos41/MyMilestoneTracker.git
+```
+2. Open the solution in Visual Studio.
+3. Set the target platform (Android, iOS, Windows) and run the app.
+4. The app will launch and display a stepper wizard with multiple steps.
+5. 
+---
+
+## 🚀 Usage
+
+1. Click Next to go to the next step.
+2. Click Back to return to the previous step.
+3. Customize steps by editing the XAML inside StepperControl.Steps.
+4. Each step can contain multiple inputs, labels, or custom views.
+
+---
+
+## ⚙️ How It Works
+
+1. StepperControl is a custom ContentView that holds an ObservableCollection<View> called Steps.
+2. Each step is a View (usually a VerticalStackLayout) containing labels, entries, or any content.
+3. Navigation updates the displayed content with a ContentPresenter.
+4. The first step is displayed automatically on app start.
+
+---
+
+🤝 Contributing
+
+Feel free to contribute by creating pull requests or issues. Suggestions to improve the StepperControl or add features are welcome.
